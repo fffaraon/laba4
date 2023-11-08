@@ -1,17 +1,17 @@
-// ConsoleApplication2.cpp: определяет точку входа для консольного приложения.
+// ConsoleApplication2.cpp: Г®ГЇГ°ГҐГ¤ГҐГ«ГїГҐГІ ГІГ®Г·ГЄГі ГўГµГ®Г¤Г  Г¤Г«Гї ГЄГ®Г­Г±Г®Г«ГјГ­Г®ГЈГ® ГЇГ°ГЁГ«Г®Г¦ГҐГ­ГЁГї.
 //
 
 #include "stdafx.h"
 #include "math.h"
 #include "stdio.h"
 
-
+hgjfj
 int _tmain(int argc, _TCHAR* argv[])
 {
 	int a;
 	FILE*f;
 	errno_t err;
-	err=fopen_s(&f,"T:\\'И-32\\Tanya\\3","r");
+	err=fopen_s(&f,"T:\\'Г€-32\\Tanya\\3","r");
 	if (err == 0)
 	{
 		printf("The file 'crt_fopen_s.c' was opened\n");
