@@ -1,5 +1,3 @@
-// ConsoleApplication2.cpp: îïðåäåëÿåò òî÷êó âõîäà äëÿ êîíñîëüíîãî ïðèëîæåíèÿ.
-//
 
 #include "stdafx.h"
 #include "math.h"
