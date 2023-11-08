@@ -1,0 +1,60 @@
+1. #include <stdio.h>
+int main(void){
+int K,M,N;
+scanf("%d %d %d",&K,&M,&N);
+int sum = M%2+N%2+K%2;
+if (sum==3){
+    K*=K;
+    M*=M;
+    N*=N;
+}
+if (sum==2){
+    if (M%2==0) M++;
+    if (N%2==0) N++;
+    if (K%2==0) K++;
+}
+if (sum==1){
+    if (M%2==1) M*=2;
+    if (N%2==1) N*=2;
+    if (K%2==1) K*=2;
+}
+printf("K=%d.M=%d.N=%d",K,M,N);
+return 0;
+}
+
+
+2. def sum_of_two(nums: list, target: int) -> list:
+    for i in range(len(nums)):
+        for j in range(i + 1, len(nums)):
+            if nums[i] + nums[j] == target:
+                return [i, j]
+
+
+print(sum_of_two([3, 2, 1, 8, 3], 6))
+
+4.Program SORT_1;   
+Const n=10;
+Var 
+    Mas  : array[1..n] of integer;
+    i , c, p   : integer;
+Begin
+    Writeln(‘Введите значения элементов массива’);
+    For i:=i to n do
+    begin
+    Write(‘mas[‘,i,’]=’);
+    Readln(mas[i]);
+         end;
+    repeat
+    p:=0;
+    for i:=1 to n-1 do
+        if mas[i]> mas[i+1] then
+        begin   
+            c:=mas[i];
+            mas[i]:=mas[i+1];
+            mas[i+1]:=c;
+            p:=1;
+        end;
+    until p=0;
+    writeln(‘Упорядоченный  по возрастанию массив:’);
+    for i:=1 to n do writeln(‘mas[‘,i,’]=’, mas[i]);
+End.
