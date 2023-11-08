@@ -1,11 +1,10 @@
-// ConsoleApplication2.cpp: îïðåäåëÿåò òî÷êó âõîäà äëÿ êîíñîëüíîãî ïðèëîæåíèÿ.
-//
+
 
 #include "stdafx.h"
 #include "math.h"
 #include "stdio.h"
 
-hgjfj
+
 int _tmain(int argc, _TCHAR* argv[])
 {
 	int a;
