@@ -1,4 +1,5 @@
-1. #include <stdio.h>
+//rjhguih
+#include <stdio.h>
 int main(void){
 int K,M,N;
 scanf("%d %d %d",&K,&M,&N);
